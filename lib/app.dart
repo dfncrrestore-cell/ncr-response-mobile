@@ -4,6 +4,7 @@ import 'screens/login_screen.dart';
 import 'screens/register_screen.dart';
 import 'screens/home_screen.dart';
 import 'screens/emergency_request_screen.dart';
+import 'screens/office_dashboard_screen.dart';
 import 'screens/ai_scan_screen.dart';
 import 'screens/job_status_screen.dart';
 import 'screens/profile_screen.dart';
@@ -26,6 +27,7 @@ class NcrResponseApp extends StatelessWidget {
         RegisterScreen.routeName: (context) => const RegisterScreen(),
         HomeScreen.routeName: (context) => const HomeScreen(),
         EmergencyRequestScreen.routeName: (context) => const EmergencyRequestScreen(),
+        OfficeDashboardScreen.routeName: (context) => const OfficeDashboardScreen(),
         AiScanScreen.routeName: (context) => const AiScanScreen(),
         JobStatusScreen.routeName: (context) => const JobStatusScreen(),
         ProfileScreen.routeName: (context) => const ProfileScreen(),

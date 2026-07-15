@@ -27,6 +27,13 @@ class HomeScreen extends StatelessWidget {
             const SizedBox(height: 12),
             ElevatedButton(
               onPressed: () {
+                Navigator.pushNamed(context, OfficeDashboardScreen.routeName);
+              },
+              child: const Text('Office Dashboard'),
+            ),
+            const SizedBox(height: 12),
+            ElevatedButton(
+              onPressed: () {
                 Navigator.pushNamed(context, AiScanScreen.routeName);
               },
               child: const Text('AI Scan'),
